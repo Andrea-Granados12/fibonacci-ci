@@ -1,7 +1,9 @@
+import sys
+import os
 import pytest
-from fibonacci import fibonacci
 
-import pytest
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from fibonacci import fibonacci
 
 def test_fibonacci_correcto():
