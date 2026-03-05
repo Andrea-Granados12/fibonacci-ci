@@ -11,3 +11,5 @@ def test_fibonacci_limite():
 def test_fibonacci_error():
     with pytest.raises(ValueError):
         fibonacci(-5)
+
+# fix test
